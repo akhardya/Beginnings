@@ -1,6 +1,15 @@
+#!usr/bin/python
+#-*-coding:utf-8 -*
 import unittest
 
 class TestTableDeMultiplication(unittest.TestCase):
 
-    def test_true_false(self):
-        self.assertEqual(True,False)
+    def testTrueTrue(self):
+        self.assertEqual(True,True)
+
+    def testMultiply(self):
+        self.assertEqual(multiply(1),0)
+
+
+if __name__=='__main__':
+    unittest.main()
