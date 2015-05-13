@@ -30,20 +30,21 @@ class BobTests(unittest.TestCase):
             bob.hey('You are, what, like 15?')
         )
 
-    # def test_talking_forcefully(self):
-    #     self.assertEqual(
-    #         'Whatever.',
-    #         bob.hey("Let's go make out behind the gym!")
-    #     )
+    def test_talking_forcefully(self):
+        self.assertEqual(
+            'Whatever.',
+            bob.hey("Let's go make out behind the gym!")
+        )
 
-    # def test_using_acronyms_in_regular_speech(self):
-    #     self.assertEqual(
-    #         'Whatever.', bob.hey("It's OK if you don't want to go to the DMV.")
-    #     )
-    # def test_forceful_questions(self):
-    #     self.assertEqual(
-    #         'Whoa, chill out!', bob.hey('WHAT THE HELL WERE YOU THINKING?')
-    #     )
+    def test_using_acronyms_in_regular_speech(self):
+        self.assertEqual(
+            'Whatever.', bob.hey("It's OK if you don't want to go to the DMV.")
+        )
+
+    def test_forceful_questions(self):
+        self.assertEqual(
+            'Whoa, chill out!', bob.hey('WHAT THE HELL WERE YOU THINKING?')
+        )
 
     # def test_shouting_numbers(self):
     #    self.assertEqual(
