@@ -1,0 +1,9 @@
+#!/usr/bin/js
+
+//return a text if one of the first letter,in a list of firstname, begins with a "a".
+
+var character = [daenarys,arya,snow,jaimee,thyrion,tiene,nym,obara,daario,bran,sansa,khal,robb,keisha,iwan,maise,petyr,eliott]
+
+for(i = 0; i < character.length; i++){
+    console.log(character[i]);
+};
